@@ -1,0 +1,39 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.hprof
+
+# Logs
+*.log
+logs/
+log/
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# IDE-specific files
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+application-local.properties
+
+# Other
+*.zip
+*.tar.gz
+*.tgz
+*.gz
+*.log
