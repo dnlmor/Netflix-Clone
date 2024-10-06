@@ -1,4 +1,4 @@
-package com.netflixclone;
+package com.netflixclone; // Make sure this matches your package structure
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
