@@ -1,0 +1,19 @@
+.movie-details {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .movie-details img {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .movie-details h1 {
+    margin-bottom: 15px;
+  }
+  
+  .movie-details p {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
