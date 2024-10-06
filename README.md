@@ -11,6 +11,51 @@ This is a full-stack **Netflix Clone** application, where users can browse, sear
 for managing collaborative development through git branches and pull requests.
 
 
+# File Structure
+
+    Netflix-Clone/
+    ├── README.md                           # Project overview, setup instructions, and GitHub Flow
+    ├── .gitignore                          # Specifies files and directories to ignore in git
+    │
+    ├── server/                             # Backend code (Java Spring Boot)
+    │   ├── src/
+    │   │   ├── main/
+    │   │   │   ├── java/com/netflixclone/  # Java application source files
+    │   │   │   │   ├── controllers/        # Controllers handling API requests
+    │   │   │   │   ├── models/             # Data models for API responses
+    │   │   │   │   └── services/           # Business logic services
+    │   │   │   └── resources/              # Application properties and configurations
+    │   │   │       ├── application.properties  # Configuration settings (e.g., API keys)
+    │   │   │       └── static/             # Static assets (if any)
+    │   │   └── test/                       # Test cases for the backend
+    │   │       └── java/com/netflixclone/  # Test classes
+    │   ├── pom.xml                         # Maven configuration file (dependencies, plugins)
+    │   └── README.md                       # Instructions for setting up the backend
+    │
+    └── client/                             # Frontend code (React.js)
+        ├── public/                         # Static files (HTML, images, etc.)
+        │   ├── index.html                  # Main HTML file
+        │   └── favicon.ico                 # Favicon for the app
+        │
+        ├── src/                            # Source files for React application
+        │   ├── components/                 # Reusable React components
+        │   │   ├── MovieCard.js            # Component for displaying movie cards
+        │   │   ├── Navbar.js                # Navigation bar component
+        │   │   └── Loader.js                # Loader component for async data fetching
+        │   │
+        │   ├── pages/                      # Main application pages
+        │   │   ├── Home.js                  # Home page displaying the movie list
+        │   │   └── MovieDetails.js          # Page for displaying details of a selected movie
+        │   │
+        │   ├── App.js                      # Main app component that contains routing
+        │   ├── index.js                    # Entry point for the React application
+        │   ├── styles.css                  # Global CSS styles
+        │   └── api.js                      # API utility for handling requests
+        │
+        ├── package.json                    # NPM configuration file (dependencies, scripts)
+        └── README.md                       # Instructions for setting up the frontend
+
+
 ### Purpose of the Project
 
 The purpose of this project is twofold:
